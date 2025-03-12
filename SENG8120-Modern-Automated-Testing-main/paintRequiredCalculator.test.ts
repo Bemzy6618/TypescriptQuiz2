@@ -7,3 +7,8 @@ import paintRequiredCalculator from "./paintRequiredCalculator";
      expect(result).toEqual(5);
    });
  });
+ describe("Zero area", () => {
+    test("should return 0 if area is 0", () => {
+      expect(paintRequiredCalculator(0, 10)).toEqual(0);
+    });
+  });
