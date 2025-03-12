@@ -14,3 +14,11 @@
       "typescript": "^5.7.3"
     }
   }
+ "version": "0.1.0",
+   "description": "The main repository for SENG8120",
+   "scripts": {
+     "start": "node ./dist/main.js",
+     "build": "tsc",
+     "test": "jest"
+   },
+   "devDependencies": { 
