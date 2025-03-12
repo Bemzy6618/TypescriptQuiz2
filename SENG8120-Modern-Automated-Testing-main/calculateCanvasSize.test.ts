@@ -7,3 +7,6 @@ import calculateCanvasSize from "./calculateCanvasSize";
      expect(result).toEqual(1000);
    })
  });
+ describe("Negative Numbers", () => {
+    test("handles negative numbers correctly", () => {
+      expect(calculateCanvasSize("-10", "100")).toEqual(-1000);
